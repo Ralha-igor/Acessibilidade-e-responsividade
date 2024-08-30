@@ -1,0 +1,218 @@
+.baskervville-sc-regular {
+    font-family: "Baskervville SC", serif;
+    font-weight: 10;
+    font-style: normal;
+}
+*{
+    outline-color: red;
+}
+body{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #000;
+}
+
+header{
+    text-align: center;
+    color: #3ca760;
+    font-family: "Baskervville SC", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+section {
+    padding: 3rem 2rem;
+    margin:  0 auto;
+    max-width: 1200px;
+}
+
+nav{
+    background-color: #FADC28;
+    text-align: center;
+    text-decoration: underline;
+} 
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 10px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.item{
+    background-color: #FADC28;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.img-hover{  
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.img-hover:hover{
+    transform: scale(1.1);
+
+}
+
+
+.escrita{
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.escrita-SR{
+    font-family: "Baskervville SC", serif;
+    font-weight: 2px;
+    font-style: normal;
+    margin: 10px;
+    padding: 10px;
+    color: #2d2b2b;
+}
+.tamanho{
+    font-size: 25px;
+}
+.Cor{
+    color: #2d2b2b;
+}
+
+.cores{
+    background-color: #FADC28;
+}
+
+
+.skip-to-content{
+    position: absolute;
+    top: 5px;
+    left: -999px;
+    border: 2px solid#FADC28;
+    background-color: #FADC28;
+    padding: 8px;
+}
+
+
+.skip-to-content:focus{
+    left: 5px;
+}
+
+
+footer{
+    background-color: #FADC28;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+footer p{
+    margin: 0;
+    color: #504E42;
+}
+
+footer a{
+    text-decoration: none;
+
+}
+
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+@media(min-width: 375px;  max-width: 667px){
+    .container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .conteudo{
+        width: 50%;
+    }
+}    
+ 
+@media(min-width: 400px; max-width: 1064 ){
+        .container{
+            grid-template-columns: 1fr 1fr 1fr  ;
+        }        
+        .conteudo{
+            width: 50%;
+        }
+    
+}
+@media(min-width: 1024px; max-width: 1366 ){
+    .container{
+        grid-template-columns: 1fr 1fr 1fr  ;
+    }
+    .conteudo{
+        width: 50%;
+    }
+    .Menu{
+        grid-template-columns: 1fr;
+    }        
+
+}
+@media (min-width: 320px) and (max-width: 800px){ 
+    .container{
+        grid-template-columns: 1fr   ;
+    }
+
+ }
+@media not all and (max-width: 400px){ 
+    .container{
+        grid-template-columns: 1fr  ;
+    }
+    .Menu{
+        grid-template-columns: 1fr;
+    }
+ }
+@media (min-width:600px) { 
+    .container{
+        grid-template-columns: 1fr   ;
+    }
+    .Menu{
+        grid-template-columns: 1fr;
+    }
+ }
+@media (min-width:801px) { 
+    .container{
+        grid-template-columns: 1fr   ;
+    }
+    .Menu{
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width:1025px) {  
+    .container{
+        grid-template-columns: 1fr   ;
+    }
+    .Menu{
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width:1281px) {
+    .container{
+        grid-template-columns: 1fr 1fr 1fr  ;
+    }
+    .Menu{
+        grid-template-columns: 1fr;
+    }
+ }
